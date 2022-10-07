@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "8aaa1051-39a9-4592-9bd6-a6a0b1d140db",
+		"name": "Zocket",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16398158"
+	},
+	"item": [
+		{
+			"name": "Product API",
+			"item": [
+				{
+					"name": "Create Product Api",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"campagin\": \"Vanilla cake campagin\",\r\n    \"clicks\": 400,\r\n    \"budget\": 10000,\r\n    \"location\": \"Chennai\",\r\n    \"status\": \"exhausted\",\r\n    \"img\": \"https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80\",\r\n    \"platform\": \"youtube\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/prod/create",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"prod",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product API",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/prod/delete/633f38ba51c0aeea4b4f5e2e",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"prod",
+								"delete",
+								"633f38ba51c0aeea4b4f5e2e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Updaete Product API",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"campagin\": \"Get Leads as call\",\r\n    \"clicks\": 300,\r\n    \"budget\": 5000,\r\n    \"location\": \"Delhi\",\r\n    \"status\": \"Live Now\",\r\n    \"img\": \"https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80\",\r\n    \"platform\": \"Google\",\r\n    \"dateFisrt\":\"12 july 2022\",\r\n    \"dateSecond\":\"15 September 2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/prod/update/633c4d7b98ff81b46cda243b",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"prod",
+								"update",
+								"633c4d7b98ff81b46cda243b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product API",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/prod//update/633d4977c96c4b5934be98ac",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"prod",
+								"",
+								"update",
+								"633d4977c96c4b5934be98ac"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Product API",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"campagin\": \"Vanilla cake campagin\",\r\n    \"clicks\": 400,\r\n    \"budget\": 10000,\r\n    \"location\": \"Chennai\",\r\n    \"status\": \"exhausted\",\r\n    \"img\": \"https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80\",\r\n    \"platform\": \"youtube\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/prod/update/:id",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"prod",
+								"update",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Campagin List API",
+			"item": [
+				{
+					"name": "Get campagin list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://zocketshubham.herokuapp.com/",
+							"protocol": "https",
+							"host": [
+								"zocketshubham",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Camapgin API",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// {\r\n//     \"name\":\"\",\r\n//     \"price\":\"\",\r\n//     \"img\":\"\"\r\n// }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/camp",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"camp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
