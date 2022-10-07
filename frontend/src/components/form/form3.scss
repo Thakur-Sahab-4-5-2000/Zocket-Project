@@ -1,0 +1,168 @@
+.formDivv {
+  margin-left: 40px;
+  width: 75%;
+  border: 1px solid gray;
+  overflow-x: hidden;
+
+  .head {
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    .heading {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+    }
+    .nonhead {
+      margin-left: 10px;
+      color: gray;
+      font-size: small;
+    }
+  }
+  .budget {
+    margin-left: 20px;
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+
+    .number {
+      background-color: rgb(10, 10, 192);
+      width: 2.5%;
+      color: white;
+      border-radius: 100%;
+      margin-left: -6px;
+      text-align: center;
+    }
+    .info {
+      font-weight: bold;
+      text-decoration: underline;
+      margin-left: 20px;
+    }
+  }
+  .timeline {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .buttonOverlap {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    .button1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      background-color: rgb(6, 86, 216);
+      padding: 10px;
+      width: 100px;
+      border-radius: 30%;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      margin-bottom: 20px;
+      color: white;
+      z-index: 2;
+    }
+    .button11 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      background-color: rgb(217, 217, 217);
+      padding: 10px;
+      width: 100px;
+      border-radius: 30%;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      margin-bottom: 20px;
+    }
+    .button2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      background-color: rgb(217, 217, 217);
+      padding: 10px;
+      width: 100px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      margin-bottom: 20px;
+      margin-left: -40px;
+    }
+    .button22 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      background-color: rgb(6, 86, 216);
+      padding: 10px;
+      width: 100px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      margin-bottom: 20px;
+      margin-left: -40px;
+      z-index: 2;
+      color: white;
+    }
+    .calendar {
+      background-color: black;
+    }
+  }
+}
+
+.range {
+  background-color: rgb(3, 22, 167);
+}
+.range1 {
+  margin-top: -50px;
+  background-color: rgb(3, 22, 167);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-left: 24px;
+  .mainInput {
+    width: 70%;
+    padding: 10px;
+  }
+}
+
+.budget2 {
+  margin-top: 20px;
+}
+
+.flareIcon {
+  margin-left: 67%;
+  margin-top: -30px;
+}
+
+.inputContainer1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-left: 24px;
+  .mainInput {
+    width: 70%;
+    padding: 10px;
+  }
+}
+
+.slider {
+  margin-top: -40px;
+}

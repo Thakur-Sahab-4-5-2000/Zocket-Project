@@ -1,0 +1,47 @@
+input.inputBox {
+  font-size: 22px;
+  padding: 5px 8px 4px 8px;
+  border-radius: 3px;
+  border: 1px solid #666;
+  width: 90%;
+}
+
+.calendarWrap {
+  display: inline-block;
+  position: relative;
+  margin-left: 22px;
+  margin-bottom: 12px;
+}
+
+.calendarElement {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  border: 1px solid #ccc;
+  z-index: 999;
+}
+
+.calendarscss {
+  display: flex;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 250px;
+}
+
+.slider {
+  width: 80%;
+  margin-left: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box {
+  position: absolute;
+  margin-left: 600px;
+  margin-bottom: 40px;
+}
+
+.iconCalender{
+  margin-left: -10px;
+}
